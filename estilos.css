@@ -1,0 +1,476 @@
+/*
+	Created by Heber Andrade
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+}
+
+.primary {
+  background-color: #FDA7DF;
+}
+
+header {
+    width: 100%;
+    height: 660px;
+    background-image: url(s3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 85px;
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+h2 {
+	color: #800080;
+}
+header .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 25vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 25vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.copy {
+    font-size: 20px;
+	color: #fff;
+	text-align: left;
+	margin-left: 10%;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+.contenedor2 {
+
+	float: left;
+    width: 50%;
+    max-width: 1000px;
+}
+.contenedor3 {
+
+	float: right;
+    width: 50%;
+    max-width: 1000px;
+}
+
+
+
+/* Main */
+
+.sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.slogan {
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+.parrafo2 {
+	font-family: 'Imprint MT Shadow';
+	font-size: 24px;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+.parrafo3 {
+	font-size: 24px;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+.parrafo4 {
+	font-size: 24px;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+    color: #6D214F;
+}
+
+.acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, .7);
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6D214F;
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 20px 0;
+    width: 15%;
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+}
+
+.cards2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.cards2 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10%;
+
+}
+
+.cards img {
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+	align: center;
+}
+
+
+.fondo {
+    height: 900px;
+    position: relative;
+    background-image: url(uno.jpg);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+    background-size: cover;
+}
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 25vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #6D214F transparent;
+	
+	
+}
+
+.titulo-patrocinadores,
+.subtitulo-patrocinadores {
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-patrocinadores {
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patro {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cliente {
+    width: 30%;
+}
+
+.cliente img {
+    width: 100%;
+    border-radius: 5%;
+	align: center;
+}
+
+/* Footer */
+
+footer {
+    background: #6D214F;
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.subtitulo-footer {
+    font-size: 20px;
+    margin-bottom: 64px;
+}
+.subtitulo-foot{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.subtitulo-foo{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+}
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+
+    header .titulo {
+        font-size: 75px;
+    }
+
+    .none {
+        display: none
+    }
+
+    .imagenes {
+        flex-grow: 1;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .fondo {
+        height: auto;
+    }
+
+    .especial {
+        display: none;
+    }
+
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+
+    header .titulo {
+        font-size: 65px;
+    }
+
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+	
+    .slogan {
+        font-size: 20px;
+    }
+
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
